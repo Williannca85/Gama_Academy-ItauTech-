@@ -1,0 +1,159 @@
+/* -------------------SOBRE--------------------- */
+
+html{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}  
+
+header
+{
+   min-height: 5em;
+   background-color: rgb(114, 11, 11);
+   font-size: 30px;
+   margin: 0px;
+   padding: 0;
+   color: white;
+   display: flex;  
+   flex-wrap: wrap;
+   justify-content: space-between; 
+   align-items: center;   
+}
+
+/* adicionado depois body */
+body, ul, li, p {
+ margin: 0px;
+ padding: 0px;
+ list-style: none;
+ font-size: 1.2rem;
+ text-align: justify;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   margin-bottom: 100px;
+   background-color:#fff;
+   line-height: 1.5;
+ }
+
+ h1 {
+   text-align: center;
+   margin-top: 100px;
+ }
+
+ h2{
+   color: rgb(114, 11, 11);
+   font-family: 'Poppins', sans-serif;
+   font-size: 2em;
+   text-align: center;
+ }
+
+ h3{
+   font-size: 24px;
+   font-weight: bold
+ }
+
+ .navbar {
+  margin: 20px;
+  padding-left: 120px;
+}
+
+ .navbar ul {
+   display: flex;
+   justify-content: flex-end;
+   text-align: center;
+}
+
+.navbar ul li {
+   box-sizing: border-box;
+}
+
+.navbar li a {
+   display: block;
+   font-family: 'Poppins', sans-serif;
+   font-size: 22px;
+   font-weight: 500;
+   text-transform: uppercase;
+   color: #fff;
+   padding: 15px 80px ;
+}
+
+.navbar li a:hover {
+   background-color: #000;
+   color: #fff;
+   cursor: pointer;
+}
+
+ #Sobre
+{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#equipe {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.integrantes {
+  border: #ccc 3px solid;
+  box-shadow: grey 2px 2px 3px;
+  padding: 10px;
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  align-content: space-between;
+}
+
+.integrantes img {
+  width: 80%;
+  height: auto;
+}
+
+.integrantes h3
+{
+  text-align: center;
+}
+
+.integrantes p
+{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.integrantes a
+{
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.integrantes a img
+{
+  height: 20px;
+}
+
+footer{
+   background-color: rgb(114, 11, 11);
+   margin: 0;
+   padding: 40px; 
+   bottom: 0;
+ }
+
+ footer .creditos{
+   line-height: 2;
+   font-weight: 700;
+   color: #fff;
+   align-items: center;
+ }
+
+footer p{
+   font-size: 20px;
+   text-decoration:none;
+   text-align: center;
+}

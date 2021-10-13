@@ -5,7 +5,7 @@
  
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Roboto+Slab:wght@600&display=swap');
  */ 
- html{
+html{
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 } 
 
@@ -94,94 +94,22 @@ box-sizing: border-box;
    cursor: pointer;
 } 
 
-.videos  {
-   box-sizing: border-box;
-   margin: 0;
-   width: 40%;
-   padding: 10px;
-   background-color: rgb(211, 207, 207);
-}
-
-.videos h2{
-  color: rgb(114, 11, 11);
-  font-family: 'Poppins', sans-serif;
-  font-size: 2em;
-  text-align: center;
-}
-
-.videos h3{
-   font-size: 24px;
-   font-weight: bold
-}
-
-.podcast {
-   margin-top: 30px;
-}
-
-.podcast iframe {
-   border: 0;   
-   width: 100%;
-   height: 150px;
-}
-
-main {
-   display: flex;
-   justify-content: space-around;
-
-   box-sizing: border-box;
-   padding: 10px;
-   max-width: 100%;
-} 
-
-/* main {
+/*  main {
    text-align: left;
    display: flex;
    justify-content: center;
- } */
-
-.noticias {
-   box-sizing: border-box;
-   padding-right: 120px;
-   margin: 0;
-   width: 70%;
-}
-
-aside{
-   display: block;
-   margin: 40px;
-   padding: 30px 40px;
-/*    width: 50%; */
-   border-radius: 5px;
-}
-
-footer{
-   background-color: rgb(114, 11, 11);
-   margin: 0;
-   padding: 40px; 
-   bottom: 0;
  }
+  */
 
- footer .creditos{
-   line-height: 2;
-   font-weight: 700;
-   color: #fff;
-   align-items: center;
- }
-
-footer p{
-   font-size: 20px;
-   text-decoration:none;
-   text-align: center;
-}
-
-/* ----------Contato------------------------- */
-/* 
 main {
-   text-align: left;
-   display: flex;
-   justify-content: center;
- } */
+    display: flex;
+    justify-content: space-around;
  
+    box-sizing: border-box;
+    padding: 10px;
+    max-width: 100%;
+ } 
+
  fieldset {
    padding: 0 8vw 5px;
    border-radius: 10px;
@@ -208,7 +136,6 @@ main {
    padding: 5px 10vw; 
    text-align: left;
    border: 2px solid;
-
  }
  
  .button {
@@ -235,3 +162,23 @@ main {
      background-color: #000;
      color: #fff;
  }
+
+ footer{
+   background-color: rgb(114, 11, 11);
+   margin: 0;
+   padding: 40px; 
+   bottom: 0;
+ }
+
+ footer .creditos{
+   line-height: 2;
+   font-weight: 700;
+   color: #fff;
+   align-items: center;
+ }
+
+footer p{
+   font-size: 20px;
+   text-decoration:none;
+   text-align: center;
+}
