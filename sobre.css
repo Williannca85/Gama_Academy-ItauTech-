@@ -18,7 +18,6 @@ header
    align-items: center;   
 }
 
-/* adicionado depois body */
 body, ul, li, p {
  margin: 0px;
  padding: 0px;
