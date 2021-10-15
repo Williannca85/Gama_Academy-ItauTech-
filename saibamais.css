@@ -1,4 +1,4 @@
- html{
+html{
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 } 
 
@@ -14,12 +14,6 @@ header
    flex-wrap: wrap;
    justify-content: space-between; 
    align-items: center;   
-   
-}
-header a{
-   text-shadow: 2px 2px 20px #ccc;
-   text-transform: capitalize;
-   cursor: pointer;
 }
 
 body, ul, li, p {
@@ -92,87 +86,16 @@ box-sizing: border-box;
    cursor: pointer;
 } 
 
-.videos  {
-   box-sizing: border-box;
-   margin: 0;
-   width: 40%;
-   padding: 10px;
-   background-color: rgb(211, 207, 207);
-}
-
-.videos h2{
-  color: rgb(114, 11, 11);
-  font-family: 'Poppins', sans-serif;
-  font-size: 2em;
-  text-align: center;
-}
-
-.videos h3{
-   font-size: 24px;
-   font-weight: bold
-}
-
-.podcast {
-   margin-top: 30px;
-}
-
-.podcast iframe {
-   border: 0;   
-   width: 100%;
-   height: 150px;
-}
-
 main {
-   display: flex;
-   justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
+ 
+    box-sizing: border-box;
+    padding: 10px;
+    max-width: 100%;
+ } 
 
-   box-sizing: border-box;
-   padding: 10px;
-   max-width: 100%;
-} 
-
-.noticias {
-   box-sizing: border-box;
-   padding-right: 120px;
-   margin: 0;
-   width: 70%;
-}
-
-aside{
-   display: block;
-   margin: 40px;
-   padding: 30px 40px;
-   border-radius: 5px;
-}
-
-footer{
-   background-color: rgb(114, 11, 11);
-/*    margin: 0;
-   padding: 40px; 
-   bottom: 0; */
-   margin: 100px auto 0;
-	width: 100%;
-   padding: 20px 0;
- }
-
- footer .creditos{
-   line-height: 2;
-   font-weight: 700;
-   color: #fff;
-   align-items: center;
- }
-
-footer p{
-   font-size: 20px;
-   text-decoration:none;
-   text-align: center;
-}
-
-#saibamais{
-   align-items: center;
-}
-
-fieldset {
+ fieldset {
    padding: 0 8vw 5px;
    border-radius: 10px;
    border: 2px solid  rgb(114, 11, 11); 
@@ -188,6 +111,59 @@ fieldset {
  fieldset {
      margin-top: 10px;
  }
-section{
+ 
+ input {
+   padding: 5px 10vw; 
    text-align: left;
+   border: 2px solid
+ }
+ #nome, #email, #linkedin, #mensagem {
+   padding: 5px 10vw; 
+   text-align: left;
+   border: 2px solid;
+ }
+ 
+ .button {
+ 
+   margin-top: 5px;
+   padding: 5px;
+   width: 100%;
+ }
+ 
+ .button button {
+   justify-content: center;
+     font-size: .8rem;
+     width: 40vw;
+     max-width: 150px;
+     height: 5vh;
+     border-radius: 5px;
+     border: none;
+     background-color: rgb(114, 11, 11);
+     color:#fff;
+     transition: all 0.4s;
+ }
+ 
+ .button button:hover {
+     background-color: #000;
+     color: #fff;
+ }
+
+ footer{
+   background-color: rgb(114, 11, 11);
+   margin: 0;
+   padding: 40px; 
+   bottom: 0;
+ }
+
+ footer .creditos{
+   line-height: 2;
+   font-weight: 700;
+   color: #fff;
+   align-items: center;
+ }
+
+footer p{
+   font-size: 20px;
+   text-decoration:none;
+   text-align: center;
 }
